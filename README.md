@@ -9,11 +9,7 @@ This project focuses on the development of a secure vehicle-to-everything (V2X) 
 - **Digital Signatures**: ECDSA for message authentication ensures data authenticity.
 - **Optimized Communication Protocols**: Reduces latency and computational load, suitable for real-time V2X environments.
 
-## Project Structure
-- **System Design**: Contains functional block diagrams and detailed designs outlining the communication flow and security architecture.
-- **Implementation**: Built on Raspberry Pi with NodeMCU ESP8266 modules and MPU6050 sensors for motion tracking. Data transmission is secured over a WLAN.
-- **Optimization**: Minimizes message size and latency by removing redundant certificate exchanges after the initial trust establishment.
-- **Security Protocols**: Uses initialization vectors, authentication tags, and certificate-based key exchanges to establish a reliable V2X communication environment.
+
 
 ## Results
 - The project achieves secure, real-time data communication across V2X nodes, verified through time and memory profiling.
